@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/POO_INATEL.iml" filepath="$PROJECT_DIR$/.idea/POO_INATEL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO_LAB/POO_LAB.iml" filepath="$PROJECT_DIR$/POO_LAB/POO_LAB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO_TEORIA/POO_TEORIA.iml" filepath="$PROJECT_DIR$/POO_TEORIA/POO_TEORIA.iml" />
+    </modules>
+  </component>
+</project>
