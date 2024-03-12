@@ -23,6 +23,7 @@ public class Jogador {
         this.vida = vida;
     }
 
+    @Override
     public String toString(){
         return
                 "\nDano da arma: " + arma.dano +

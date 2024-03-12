@@ -13,8 +13,8 @@ public class Main {
 
         player_1.atacar(player_2);
 
-        System.out.println(player_1.toString());
-        System.out.println(player_2.toString());
+        System.out.println(player_1);
+        System.out.println(player_2);
 
 
 
