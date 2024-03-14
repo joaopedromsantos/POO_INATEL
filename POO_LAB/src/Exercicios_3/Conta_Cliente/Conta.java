@@ -21,6 +21,10 @@ public class Conta {
         return limite;
     }
 
+    public void setLimite(double limite) {
+        this.limite = limite;
+    }
+
     @Override
     public String toString() {
         return "Conta{" +
