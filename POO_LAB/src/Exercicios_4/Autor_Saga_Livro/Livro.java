@@ -9,8 +9,6 @@ public class Livro {
         this.paginas = paginas;
     }
 
-
-
     @Override
     public String toString() {
         return "Livro{" +

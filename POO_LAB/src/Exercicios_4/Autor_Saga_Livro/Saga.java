@@ -1,19 +1,37 @@
 package Exercicios_4.Autor_Saga_Livro;
 
+import java.util.Arrays;
+
 public class Saga {
     private int nota;
-    private Livro[] livros;
+    private Livro[] livros = new Livro[20];
 
-    public Saga(int nota, Livro[] livros) {
+    public Saga(int nota) {
         this.nota = nota;
-        this.livros = livros;
     }
 
     public void listarLivros(){
-        for (int i = 0; i < livros.length; i++) {
-            if (livros[i] != null){
-                System.out.println(livros[i]);
+        for (Livro livro : livros) {
+            if (livro != null) {
+                System.out.println(livro);
             }
         }
+    }
+
+    public void adicionarLivro(Livro livro){
+        for (int i = 0; i < livros.length; i++) {
+            if (livros[i] == null){
+                livros[i] = livro;
+                break;
+            }
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Saga{" +
+                "nota=" + nota +
+                ", livros=" + Arrays.toString(livros) +
+                '}';
     }
 }
