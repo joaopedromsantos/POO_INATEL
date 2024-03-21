@@ -1,7 +1,9 @@
+package Primeiros_exercicios;
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class Exercicio_6 {
+public class Exercicio_5 {
 
     public static void main(String[] args) {
 
@@ -10,25 +12,21 @@ public class Exercicio_6 {
         Random rand = new Random();
 
         int num;
-        int numTentativa;
+        int tentativa = 0;
 
         // De 1 a 10
         num = rand.nextInt(10) + 1;
 
         do {
             System.out.println("Qual número estou pensando? ");
-            numTentativa = entrada.nextInt();
+            tentativa = entrada.nextInt();
 
-            if (numTentativa > num)
-                System.out.println("O número inserido é maior que o gerado");
-            else if (numTentativa < num)
-                System.out.println("O número inserido é menor que o gerado");
-
-        } while (numTentativa != num);
+            if (tentativa != num)
+                System.out.println("Tentativa errada");
+        }while (tentativa != num);
 
         System.out.println("Acertou");
 
         entrada.close();
     }
-
 }
