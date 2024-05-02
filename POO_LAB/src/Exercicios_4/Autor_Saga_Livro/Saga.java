@@ -4,10 +4,13 @@ import java.util.Arrays;
 
 public class Saga {
     private int nota;
-    private Livro[] livros = new Livro[20];
+    private Livro[] livros;
+    private String nome;
 
-    public Saga(int nota) {
+    public Saga(int nota, String nome) {
         this.nota = nota;
+        this.nome = nome;
+        this.livros = new Livro[5];
     }
 
     public void listarLivros(){

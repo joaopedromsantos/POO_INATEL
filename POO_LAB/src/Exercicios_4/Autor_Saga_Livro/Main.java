@@ -7,13 +7,13 @@ public class Main {
         Livro livro_3 = new Livro("Corredor", 600);
         Livro livro_4 = new Livro("O Procurado", 111);
 
-        Saga saga_1 = new Saga(77);
+        Saga saga_1 = new Saga(77, "Lendários");
         saga_1.adicionarLivro(livro_2);
         saga_1.adicionarLivro(livro_4);
 
         saga_1.listarLivros();
 
-        Saga saga_2 = new Saga(66);
+        Saga saga_2 = new Saga(66, "Bons");
         saga_2.adicionarLivro(livro_1);
         saga_2.adicionarLivro(livro_3);
 

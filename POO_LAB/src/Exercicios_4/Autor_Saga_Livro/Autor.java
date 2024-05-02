@@ -4,10 +4,11 @@ import java.util.Arrays;
 
 public class Autor {
     private String nome;
-    private Saga[] sagas = new Saga[20];
+    private Saga[] sagas;
 
     public Autor(String nome) {
         this.nome = nome;
+        sagas = new Saga[5];
     }
 
     public String getNome() {
